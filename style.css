@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard', sans-serif;
+  background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a4dcf;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+.scent-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.tag {
+  background-color: #ffeaa7;
+  color: #2d3436;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.tag:hover {
+  transform: scale(1.1);
+  background-color: #fab1a0;
+}
+
+.bubble {
+  max-width: 80%;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 8px auto;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.bot {
+  background-color: #dfe6e9;
+  align-self: flex-start;
+}
+
+.user {
+  background-color: #a29bfe;
+  color: white;
+  align-self: flex-end;
+}
